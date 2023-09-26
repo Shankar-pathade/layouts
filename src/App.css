@@ -1,0 +1,118 @@
+
+body {
+    background-color: black;
+}
+.App {
+    text-align: center; 
+    padding: 20px; 
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex; 
+    justify-content: center; 
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navbar li {
+    margin: 0 10px; 
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+  }
+  .container {
+    width: 100%;
+    height: 50px;
+    border-radius: 20%; 
+  }
+  
+  .move-right {
+    float: right;
+    background: white;
+    margin-right:150px;
+    position: relative;
+    bottom: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: black;
+    border: none; 
+    border-radius: 10px;
+    cursor: pointer; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .form-container {
+    float: right;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+    margin: 20px auto;
+    margin-right: 100px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  .cnt {
+    color: whitesmoke;
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 80px;
+    font-style: inherit;
+    font-family: serif;
+  }
+  .clr {
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+    margin-right: 60px;
+  }
+  .imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    margin-bottom: 450px;
+    margin-right: 280px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .move-right {
+        float: none; 
+        margin: 10px auto; 
+    }
+
+    .form-container {
+        width: 100%; 
+        margin-right: 0;
+    }
+
+    .cnt {
+        font-size: 18px; 
+        margin-left: 0; 
+    }
+
+    .clr {
+        margin-right: 0;
+    }
+
+    .imgs {
+        flex-direction: row; 
+        margin-bottom: 10px; 
+    }
+}
